@@ -1,4 +1,4 @@
-fetch('https://www.starbucks.com/menu/at-home-coffee/whole-bean')
+fetch('http://www.starbucks.com/menu/at-home-coffee/whole-bean')
     .then(response => {
 
         return response.text()
